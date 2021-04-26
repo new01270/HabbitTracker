@@ -1,0 +1,74 @@
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;  
+}
+
+.navbar {
+  font-size: 2rem;
+  padding: 1em;
+  background-color: khaki;
+}
+
+.navbar span {
+  color: tan;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  color: blueviolet;
+  margin-right: 0.5rem;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 00.2rem;
+  background-color: darkolivegreen;
+  color: aqua;
+  border-radius: 50%;
+}
+
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.5rem;
+  background-color: lightsalmon;
+  color: white;
+  border-radius: 50%;
+}
+
+.habit-button {
+  font-size: 2.5rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.5;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: plum;
+}
+
+.habit-delete {
+  font-size: 2rem;
+  color: deeppink
+}
